@@ -6,9 +6,9 @@
 		top: 0;
 		left: 0;
 		z-index: 1000;
-		transition: 500ms all;
+		transition: 500ms all ease-in-out;
 		.inner{
-			transition: 500ms all;
+			transition: 500ms all ease-in-out;
 		}
 	}
 
