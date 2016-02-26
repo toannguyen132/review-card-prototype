@@ -17,7 +17,7 @@
 	]
 },
 {
-	"title": "Do you like the service?",
+	"title": "Lorem ipsum dolor sit amet, consectetur.",
 	"thumbnail": "public/img/thumb-3.jpg",
 	"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officia quaerat quis fugiat, vitae assumenda placeat delectus, consequatur! Accusamus?",
 	"type": "thumbs",
@@ -26,5 +26,32 @@
 		"public/img/thumb-2.jpg",
 		"public/img/thumb-3.jpg"
 	]
+},
+{
+	"title": "Lorem ipsum dolor sit amet.",
+	"thumbnail": "public/img/thumb-2.jpg",
+	"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officia quaerat quis fugiat, vitae assumenda placeat delectus, consequatur! Accusamus?",
+	"type": "thumbs",
+	"rating": [
+		"public/img/thumb-1.jpg",
+		"public/img/thumb-2.jpg",
+		"public/img/thumb-3.jpg"
+	]
+},
+{
+	"title": "Natus officia quaerat quis fugiat, vitae?",
+	"thumbnail": "public/img/thumb-3.jpg",
+	"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officia quaerat quis fugiat, vitae assumenda placeat delectus, consequatur! Accusamus?",
+	"type": "thumbs",
+	"rating": [
+		"public/img/thumb-1.jpg",
+		"public/img/thumb-2.jpg",
+		"public/img/thumb-3.jpg"
+	]
+},{
+	"title": "Do you like the food?",
+	"thumbnail": "public/img/thumb-1.jpg",
+	"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officia quaerat quis fugiat, vitae assumenda placeat delectus, consequatur! Accusamus?",
+	"type": "stars"
 }
 ]

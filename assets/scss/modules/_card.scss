@@ -13,11 +13,7 @@
 
 .card-face{
 	height: 100%;
-	border-radius: 5px;
-	background-color: #fff;
-	border: 1px solid #e0e0e0;
 	overflow: hidden;
-	box-shadow: 0px 1px 7px 0px #d4d4d4;
 
 	&.active{
 		display: block;
@@ -29,6 +25,11 @@
 
 	.inner{
 		height: 100%;
+		box-shadow: 0px 1px 7px 0px #d4d4d4;
+		border-radius: 5px;
+		background-color: #fff;
+		border: 1px solid #e0e0e0;
+		overflow: hidden;
 		@extend .clearfix;
 	}
 	.thumb, .content{

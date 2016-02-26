@@ -7,9 +7,24 @@
 		left: 0;
 		z-index: 1000;
 		transition: 500ms all ease-in-out;
+		opacity: 1;
 		.inner{
 			transition: 500ms all ease-in-out;
 		}
+	}
+
+	[class*="after-active-"]{
+		transition-delay: 0;
+	}
+	.active{
+		transition-delay: 0;
+	}
+	[class*="before-active-"]{
+		transition-delay: 200ms;
+	}
+
+	[class*="after-active-"].active-add{
+		transition-delay: 300ms;
 	}
 
 	@for $i from 1 through 10{
@@ -17,13 +32,10 @@
 			transform: translate3d(0, -#{$i*30}px, -#{$i*30}px);
 			z-index: #{1000 - ($i*10)};
 		}
-	}
-
-	@for $i from 1 through 10{
 		.after-active-#{$i}{
 			transform: translate3d(0, #{$i*30}px, 0);
-			opacity: 0;
 			z-index: #{1000 - ($i*10)};
+			opacity: 0;
 			.inner{
 				transform: translateY(50%) rotateX(90deg);
 			}
@@ -31,5 +43,9 @@
 		.after-active-#{$i}.after-active-#{$i}-add{
 			z-index: #{1000 + ($i*10)};
 		}
-	}	
+
+		.after-active-#{$i}-remove.before-active-#{$i}-add{
+			transition-delay: 0;
+		}
+	}
 }
