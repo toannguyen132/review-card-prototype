@@ -107,9 +107,9 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    transition: 500ms all; }
+    transition: 500ms all ease-in-out; }
     .review-card .card-face .inner {
-      transition: 500ms all; }
+      transition: 500ms all ease-in-out; }
   .review-card .before-active-1 {
     -webkit-transform: translate3d(0, -30px, -30px);
     transform: translate3d(0, -30px, -30px);
