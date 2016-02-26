@@ -1,5 +1,5 @@
 {
-  "name": "frontend-starter-kit",
+  "name": "review-prototype",
   "version": "0.0.9",
   "authors": [
     "Toan Nguyen <n.minhtoan@gmail.com>"
@@ -18,7 +18,8 @@
   ],
   "dependencies": {
     "jquery": "~2.2.0",
-    "angular": "~1.4.9",
-    "bootstrap-sass": "~3.3.6"
+    "angular": "~1.5.0",
+    "bootstrap-sass": "~3.3.6",
+    "angular-animate": "~1.5.0"
   }
 }

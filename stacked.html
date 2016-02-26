@@ -3,13 +3,13 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="public/css/app.css">
+	<link rel="stylesheet" type="text/css" href="public/css/stacked.css">
 </head>
 <body>
 	
-	<div class="review-card-container flipp" ng-controller="cardReview">
+	<div class="review-card-container stacked" ng-controller="cardReviewStack">
 		<div class="review-card">
-			<div class="card-face card-{{index}}" ng-repeat="(index, question) in questions" ng-class="{ 'active': currentCard == $index }">
+			<div class="card-face card-{{index}}" ng-repeat="(index, question) in questions" ng-class="[{'active': currentCard == index}, beforeClass(index)]">
 				<div class="inner">
 					<div class="thumb">
 						<div class="photo" ng-style="{'background-image': 'url('+question.thumbnail+')'}"></div>

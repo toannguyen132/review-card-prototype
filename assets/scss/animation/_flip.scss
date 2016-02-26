@@ -1,0 +1,30 @@
+/** animation **/
+.review-card{
+	perspective: 2600px;
+	transform-style: preserve-3d;
+}
+.card-face{
+	transform: rotateY(-180deg);
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transition: none;
+
+	&.active-add-active, &.active-remove-active,
+	&.active-add, &.active-remove{
+		transition: all 400ms cubic-bezier(0.750, 0, 0.735, 1.000) !important;
+		display: block !important;
+	}
+
+	&.active{
+		transform: rotateY(0);
+	}
+
+	&.active-remove{
+		transform: rotateY(180deg);
+	}
+
+}
